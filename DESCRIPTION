@@ -1,0 +1,16 @@
+Package: hiringLetter
+Type: Package
+Title: Sorting and Customizing Acceptance or Rejection Letter Templates
+Version: 0.1.0
+Author: Ramya Subramanian
+Maintainer: The package maintainer <rsubramanian23@usf.edu>
+Description: This package holds a shiny app function for individuals on a hiring committee to
+    interactively set qualifications to filter candidates for a position. The default qualifications
+    available in the hire function are age, work experience, and current role. The output is filtered
+    tables of accepted and rejected individuals with customized acceptance and rejection letter templates.
+    The letter template is designed based on a S4 class.
+License: CC0
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.2.3
+
