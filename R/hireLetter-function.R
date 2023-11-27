@@ -5,6 +5,7 @@
 hireLetter <- function(data) {
   require(shiny)
   shinyApp(
+    # Create UI
     ui <- fluidPage(
       sidebarLayout(
         sidebarPanel(
@@ -72,7 +73,7 @@ hireLetter <- function(data) {
         }
       )
 
-
+      # Create letter templates
       output$AcceptL <- renderUI({
         if(length(passData() > 0)){
           HTML(paste("Dear",passData()$name, ",<br/>",
