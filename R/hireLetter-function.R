@@ -2,6 +2,10 @@
 #' @description function outputs shiny app consisting filtered data to view and download as a csv file of individuals who pass or fail their age and experience qualifications as well as draft acceptance and rejection letters
 #' @param data user inputs their data frame of applicant data
 
+# Load necessary libraries
+library(shiny)
+library(dplyr)
+
 hireLetter <- function(data) {
   require(shiny)
   shinyApp(
