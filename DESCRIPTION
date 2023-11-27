@@ -11,6 +11,7 @@ Description: This package holds a shiny app function for individuals on a hiring
     The letter template is designed based on a S4 class.
 License: CC0
 Encoding: UTF-8
+Depends: dplyr
 LazyData: true
 RoxygenNote: 7.2.3
 
